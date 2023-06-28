@@ -1,0 +1,22 @@
+Package: testegit
+Title: automacao do modelo
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: automacao do modelo
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    GAS,
+    nortest,
+    PerformanceAnalytics,
+    quantmod,
+    rugarch,
+    tseries,
+    xts,
+    yfR
+Depends: 
+    tidyverse
