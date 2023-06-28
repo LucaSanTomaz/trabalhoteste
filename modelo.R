@@ -58,4 +58,4 @@ total_data <- rbind(original_data, forecast_data)
 total_data <- total_data[(nrow(total_data) - 20):nrow(total_data),]
 
 
-write.csv(total_data, file = "../Previsao.csv")
+write.csv(total_data, file = "R/Previsao.csv")
